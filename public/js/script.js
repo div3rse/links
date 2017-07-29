@@ -16,6 +16,7 @@ copy.on('click', () => {
 	copy.html('Copied!')
 	setTimeout(() => {
 		copy.hide()
+		copy.html('Copy')
 		url.val('')
 		create.show()
 	}, 1000)
