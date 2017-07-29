@@ -1,0 +1,16 @@
+{
+  "name": "links",
+  "version": "0.0.1",
+  "description": "Self Destructing URL Shortener",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "latest",
+    "express": "latest",
+    "randomstring": "latest"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Diverse",
+  "license": "MIT"
+}
